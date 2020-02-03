@@ -2,7 +2,8 @@ call plug#begin('~/.config/nvim/plug')
 " Colortheme
 Plug 'w0ng/vim-hybrid'
 Plug 'gruvbox-community/gruvbox'
-
+set background=dark
+colorscheme hybrid
 " Language/JavaScript
 Plug 'pangloss/vim-javascript'
 Plug 'neoclide/vim-jsx-improve'
